@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/6b7d429c30.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <div class="quote-text">
+        <span id="quote">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet harum
+          beatae, voluptates illo labore molestias!
+        </span>
+      </div>
+      <div class="quote-author">
+        <span class="badge bg-info author" id="author">Einstein</span>
+      </div>
+      <div class="button-container flex">
+        <button class="twitter-button" id="twitter-button" title="Tweet This">
+          <i class="fa-brands fa-twitter"></i>
+        </button>
+        <button class="btn btn-primary" id="new" onclick="getQuote()">
+          New Quote
+        </button>
+      </div>
+    </div>
+
+    <!-- Custom Js -->
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
